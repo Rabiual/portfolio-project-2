@@ -1,0 +1,270 @@
+/* @media (max-width: 575px)   { 
+
+} */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-toggler {
+      color: transparent;
+        border:1px solid  #fff;
+      
+    }
+
+.navbar-toggler i{
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+.navbar-nav {
+	background-color: green;
+    text-align: center;
+}
+
+.menu-bg ul li a:hover::after {
+    opacity: 0;}
+.bnr-img {
+	padding: 200px 0;
+
+}    
+ .menu-bg{
+    background-color: palevioletred;
+ } 
+ .btn {
+	top: 222px;
+}
+.about-left, 
+ .about-right{
+    opacity: 0;
+}
+.about-mid {
+
+	margin: -135px auto;
+}
+
+.about-bottom::after {
+
+	top: 113px;
+	
+}
+.about-bottom::before {
+	top: -73px;
+}
+ .about-bottom::after {
+	top: -21px;
+}
+
+#portfolio {
+	padding: 98px 0 50px 0;
+	background: url(../images/porfolio_banner.jpg) no-repeat center / cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+	position: relative;
+	margin-top: 20px;
+	z-index: 999;
+}
+
+.right-heading h3,
+.left-heading h3 {
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 25px 0;
+}
+.draggable{
+    height: 370px !important;
+}
+ .hdhdh{
+    margin: 100px 0;
+}
+.service_text_right p,
+.service_text_left p {
+	
+	margin-top: 27px;
+}
+#service .rprev {
+	bottom: -94px;
+}
+#service::after {
+	height: 488px;
+}
+
+#feedback {
+	background: url(../images/feedback_banner.jpg)no-repeat center / cover;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	margin: 100px 0;
+	position: relative;
+	z-index: 999;
+}
+.feed-text{
+height: 100%;
+}
+#feedback .draggable{
+    height: 200px !important;
+}
+.feed-text p {
+	width: 400px;
+	padding-top: 10px;
+	font-size: 14px;
+	
+}
+#feedback::before {
+	top: 125px;
+	left: 382px;
+	height: 530px;
+}
+.feed-text::before {
+opacity: 0;	
+}
+.team_margin{
+margin-top: 24px;	
+}
+#feedback .fprev {
+	bottom: 69px;
+	left: 382px;
+}
+#feedback .fnext {
+
+	top: 88px;
+	left: 383px;
+
+}
+
+
+
+}
+@media (max-width: 768px) and (max-width: 991.98px) { 
+    .navbar-toggler {
+		color: transparent;
+		  border:1px solid  #fff;
+		
+	  }
+  
+  .navbar-toggler i{
+	  color: #fff;
+	  font-size: 30px;
+	  
+  }
+  
+  .navbar-nav {
+	  background-color: green;
+	  text-align: center;
+  }
+  
+  .menu-bg ul li a:hover::after {
+	  opacity: 0;}
+  .bnr-img {
+	  padding: 200px 0;
+  
+  }    
+   .menu-bg{
+	  background-color: palevioletred;
+   } 
+   .btn {
+	  top: 222px;
+  }
+  .about-left, 
+   .about-right{
+	  opacity: 0;
+  }
+  .about-mid {
+  
+	  margin: -135px auto;
+  }
+  
+  .about-bottom::after {
+  
+	  top: 113px;
+	  
+  }
+  .about-bottom::before {
+	  top: -73px;
+  }
+   .about-bottom::after {
+	  top: -21px;
+  }
+  
+  #portfolio {
+	  padding: 98px 0 50px 0;
+	  background: url(../images/porfolio_banner.jpg) no-repeat center / cover;
+	  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  
+	  position: relative;
+	  margin-top: 20px;
+	  z-index: 999;
+  }
+  
+  .right-heading h3,
+  .left-heading h3 {
+	  font-size: 20px;
+	  font-family: 'Raleway', sans-serif;
+	  font-weight: 600;
+	  text-transform: uppercase;
+	  text-align: center;
+	  padding: 25px 0;
+  }
+  .draggable{
+	  height: 370px !important;
+  }
+   .hdhdh{
+	  margin: 100px 0;
+  }
+  .service_text_right p,
+  .service_text_left p {
+	  
+	  margin-top: 27px;
+  }
+  #service .rprev {
+	  bottom: -94px;
+  }
+  #service::after {
+	  height: 488px;
+  }
+  
+  #feedback {
+	  background: url(../images/feedback_banner.jpg)no-repeat center / cover;
+	  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	  margin: 100px 0;
+	  position: relative;
+	  z-index: 999;
+  }
+  .feed-text{
+  height: 100%;
+  }
+  #feedback .draggable{
+	  height: 200px !important;
+  }
+  .feed-text p {
+	  width: 400px;
+	  padding-top: 10px;
+	  font-size: 14px;
+	  
+  }
+  #feedback::before {
+	  top: 125px;
+	  left: 382px;
+	  height: 530px;
+  }
+  .feed-text::before {
+  opacity: 0;	
+  }
+  .team_margin{
+  margin-top: 24px;	
+  }
+  #feedback .fprev {
+	  bottom: 69px;
+	  left: 382px;
+  }
+  #feedback .fnext {
+  
+	  top: 88px;
+	  left: 383px;
+  
+  }
+ }
+/* @media (max-width: 992px) and (max-width: 1199.98px) { 
+
+@media (max-width: 1200px) and (max-width: 1399.98px) { 
+
+ } */
